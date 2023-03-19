@@ -58,4 +58,6 @@ return require('packer').startup(function(use)
     }
     use('RRethy/nvim-treesitter-endwise')
     use('windwp/nvim-autopairs')
+    use('numToStr/Comment.nvim')
+    use('JoosepAlviste/nvim-ts-context-commentstring')
 end)
