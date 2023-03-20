@@ -60,4 +60,7 @@ return require('packer').startup(function(use)
     use('windwp/nvim-autopairs')
     use('numToStr/Comment.nvim')
     use('JoosepAlviste/nvim-ts-context-commentstring')
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+        require("toggleterm").setup()
+    end}
 end)
